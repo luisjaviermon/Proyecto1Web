@@ -9,10 +9,6 @@ body{
 	width: 80%;
 }
 
-.encabezado{
-	text-align: center;
-}
-
 header nav a:hover{
 	background: #f2f2f2;
 	color:#000;
@@ -35,6 +31,11 @@ nav{
 
 .op:hover{
 	color: #fff;
+}
+
+.oa{
+	position: relative;
+	top: 80px;
 }
 
 .oa:hover{
@@ -79,69 +80,22 @@ nav{
 
 
 .hab{
-	background: gray;
+	background: gray
+
 }
 
 .car{
-	width: 86%;
+	width: 100%;
 	padding: 6%;
-	text-align: center;
-	font-size: 80%;
-	color: #f2f2f2;
+	margin: auto;
 }
 
 img.icar{
-	width: 60%;
+	width: 100%;
 }
 
 .espa{
 	margin-top: 60px;
-}
-
-@media screen and (max-width: 1000px){
-	.car{
-		margin-top: 50px;
-
-	}
-
-	.res img{
-		width: 60%;
-	}
-
-	.hab{
-		font-size: 20pt;
-	}
-
-	.res{
-		width: 110%;
-	}
-
-	.encabezado img{
-		width: 110%;
-		display: block;
-
-	}
-
-	.image{
-		margin-right: 20%;
-		margin-left: 20%;
-	}
-
-	.image img{
-		width: 250%;
-	}
-
-	.text{
-		text-align: center; 
-	}
-
-	.one{
-		margin-right: -10%;
-		float: right;
-	}
-
-	
-	
 }
 
 	footer div div a{
@@ -173,24 +127,6 @@ img.icar{
 		width: 30%;
 	}
 
-	.text{
-		display: inline-block;
-		
-		width: 68%;
-		padding: 2%;
-
-	}
-
-	.der{
-		float: right;
-	}
-
-	.izq{
-		float: left;
-		margin-right: 15px;
-		padding-left: 0;
-	}
-
 	.imagen_e{
 		width: 90%;
 	}
@@ -207,3 +143,142 @@ img.icar{
 	.img_card{
 		width: 1%;
 	}
+
+	.texto{
+		width: 68%;
+		padding: 2%;
+		display: inline-block;
+
+	}
+
+	.derecha{
+		float: right;
+	}
+
+	.izquierda{
+		float: left;
+	}
+
+	.imagen{
+		width: 28%;
+		display: inline-block;
+	}
+
+	.image .imagen_e{
+		width: 350%;
+	}
+
+	.image .imagen_r{
+		width: 240%;
+	}
+
+	.image .imagen_g{
+		width: 350%;
+	}
+
+	.enfrente{
+		z-index: 1000;
+	}
+
+@media screen and (max-width: 1000px){
+	#frase{
+		font-size: 16pt;
+	}
+
+	#desc{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.enca{
+		margin-left: -25px;
+	}
+
+	.car{
+		margin-top: 50px;
+
+	}
+
+	.res img{
+		width: 60%;
+	}
+
+	.hab{
+		font-size: 20pt;
+	}
+
+	.res{
+		width: 110%;
+	}
+
+	.encabezado img{
+		width: 110%;
+		display: block;
+
+	}
+
+	.image{
+		margin-right: 20%;
+		margin-left: 20%;
+	}
+
+	.image img{
+		width: 100%;
+	}
+
+	.text{
+		text-align: center; 
+	}
+
+	.one{
+		margin-right: -10%;
+		float: right;
+	}
+
+	.imagea{
+		margin-left: 30px;
+	}
+
+	#name{
+		margin-left: 30px;
+		width: 100%;
+	}
+
+	.tarjeta{
+		margin-left: 10px;
+	}
+
+	.texto{
+		width: 100%;
+	}
+
+	.imagen{
+		margin-bottom: 30px;
+		width: 100%;
+	}
+
+	.image .imagen_e{
+		margin-left: -90px;
+	}
+
+	.image .imagen_r{
+		margin-left: -30px;
+	}
+
+	.image .imagen_g{
+		width: 250%;
+		margin-left: -30px;
+	}
+
+	#frase{
+		margin-left: 30px;
+	}
+
+	#desc{
+		margin-left: 30px;
+	}
+	
+}
+		
+
