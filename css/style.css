@@ -83,7 +83,7 @@ nav{
 }
 
 .car{
-	width: 86%;
+	width: 70%;
 	padding: 6%;
 	text-align: center;
 	font-size: 80%;
@@ -98,7 +98,7 @@ img.icar{
 	margin-top: 60px;
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 1000px){
 	.car{
 		margin-top: 50px;
 
