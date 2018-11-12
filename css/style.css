@@ -98,7 +98,7 @@ img.icar{
 	margin-top: 60px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 992px){
 	.car{
 		margin-top: 50px;
 
